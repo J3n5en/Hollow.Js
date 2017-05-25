@@ -7,7 +7,7 @@ module.exports = {
     // '../../middlewares/orm',
     '../../middlewares/render',
     '../../middlewares/router',
-    // '../../middlewares/static',
+    '../../middlewares/static',
     // 'koa-bodyparser',
   ],
   static: {

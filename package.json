@@ -1,0 +1,28 @@
+{
+  "name": "hollow.js",
+  "version": "1.0.0",
+  "description": "base on koa(v2),django like web framework. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "J3n5en",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-router": "^7.2.0",
+    "koa-send": "^4.1.0",
+    "log4js": "^1.1.1",
+    "moment": "^2.18.1",
+    "xtemplate": "^4.7.2",
+    "xtpl": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}

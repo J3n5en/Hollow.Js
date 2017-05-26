@@ -1,6 +1,7 @@
 module.exports = class {
   async hello() {
-    this.render('index');
+    let foo = await this.orm.Foo.findOne();
+    console.log(foo.get('name'))
   }
   body() {
     console.log(this.params);

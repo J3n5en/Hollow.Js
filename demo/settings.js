@@ -4,7 +4,7 @@ module.exports = {
   // 引入中间件
   middlewares: [
   // 中间件自上而下加载
-    // '../../middlewares/orm',
+    '../../middlewares/orm',
     '../../middlewares/render',
     '../../middlewares/router',
     '../../middlewares/static',
